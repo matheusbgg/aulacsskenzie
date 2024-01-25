@@ -1,0 +1,86 @@
+body, h1, h2, h3, p, button {
+    margin: 0;
+    padding: 0;
+    border: nome;
+  }
+  
+  
+  body{
+    color: white;
+    font-family: "JetBrains Mono", sans-serif;
+  }
+  
+  .secao-destaque {
+    background-color: #00005f;
+    
+  }
+  
+  .secao-conteudo {
+    background-color: #00002a;
+  }
+  
+  .secao-calendario {
+    background-color: #00005f;
+  }
+  
+  #rodape {
+    background-color: #00002a;
+  }
+  
+  .texto-superior-principal {
+    font-size:22px;
+    font-weight: 800;
+  }
+  .titulo-principal {
+    font-size: 70px;
+    font-weight: 900;
+    padding: 32px 0;
+  }
+  
+  .paragrafo-padrao {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 32px;
+  }
+  
+  .texto-superior-secundario {
+    font-size: 15px;
+  }
+  
+  .titulo-secundario {
+    font-size: 42px;
+    padding: 32px 0;
+  }
+  
+  .titulo-terciario {
+    font-size: 31px;
+  }
+  
+  .paragrafo-menor {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+  }
+  
+  svg {
+    fill: white;
+  }
+  
+  .secao-destaque, .secao-conteudo, .secao-calendario {
+    padding: 80px;
+  }
+  
+  #rodape {
+    padding: 32px;
+    text-align: center;
+  }
+  
+  .botao-chamada {
+    padding: 25px 50px;
+    background-color: #00ffa5;
+    font-weight: 700;
+    font-family: "JetBrains Mono", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
