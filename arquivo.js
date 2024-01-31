@@ -1,13 +1,16 @@
-const modal = document.querySelector('.modal')
+const fechar 
+= document.querySelector ('.fear')
 
-const botaoAbrirModal = document.querySelector('.botao-chamada')
+const modal 
+= document.querySelector('.modal')
 
-const botaoFecharModal = document.querySelector('.botao-fechar-modal')
+const botao
+= document.querySelector('.botao-1')
 
-botaoAbrirModal.addEventListener('click', () => {
-    modal.showModal();
+botao.addEventListener('click', () => {
+  modal.showModal();
 })
 
-botaoFecharModal.addEventListener('click', () => {
-    modal.close();
+fechar.addEventListener('click', () => {
+  modal.close();
 })

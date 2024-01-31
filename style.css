@@ -1,134 +1,144 @@
-body, h1, h2, h3, p, button, ul, li {
-    margin: 0;
-    padding: 0;
-    border: nome;
-    box-sizing: border-box;
-  }
-  
- 
-  body{
-    color: white;
-    font-family: "JetBrains Mono", sans-serif;
-  }
-  
-  .secao-destaque {
-    background-color: #00005f;
-    
-  }
-  
-  .secao-conteudo {
-    background-color: #00002a;
-  }
-  
-  .secao-calendario {
-    background-color: #00005f;
-  }
-  
-  #rodape {
-    background-color: #00002a;
-  }
-  
-  .texto-superior-principal {
-    font-size:22px;
-    font-weight: 800;
-  }
-  .titulo-principal {
-    font-size: 70px;
-    font-weight: 900;
-    padding: 32px 0;
-  }
-  
-  .paragrafo-padrao {
-    font-family: "Montserrat", sans-serif;
-    font-size: 18px;
-    line-height: 30px;
-    padding-bottom: 32px;
-  }
-  
-  .texto-superior-secundario {
-    font-size: 15px;
-  }
-  
-  .titulo-secundario {
-    font-size: 42px;
-    padding: 32px 0;
-  }
-  
-  .titulo-terciario {
-    font-size: 31px;
-  }
-  
-  .paragrafo-menor {
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  svg {
-    fill: white;
-  }
-  
-  .secao-destaque, .secao-conteudo, .secao-calendario {
-    padding: 80px;
-  }
-  
-  #rodape {
-    padding: 32px 25px;
-    border-top: 1px solid gray;
-    display: flex;
-  }
-  
-  .botao-chamada {
-    padding: 25px 50px;
-    background-color: #00ffa5;
-    font-weight: 700;
-    font-family: "JetBrains Mono", sans-serif;
-    font-size: 20px;
-    cursor: pointer;
-    border-radius: 20px;
-  }
-
-  .lista-cartoes {
-    list-style: none;
-    display: flex;
-    gap: 10px;
-    padding-bottom: 32px;
-  }
-
-  .cartoes {
-    border: 0.5px solid gray;
-    padding: 15px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
+body,
+h1,
+h2,
+h3,
+p,
+button,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: nome;
+  box-sizing: border-box;
+}
 
 
-  .rodape-link {
-    color: white;
-    text-decoration: none;
-  }
+body {
+  color: white;
+  font-family: "JetBrains Mono", sans-serif;
+}
 
-  .rodape-link:hover {
-    color: red;
-    text-decoration: underline;
-  }
+.secao-destaque {
+  background-color: #00005f;
 
-  .redes-sociais {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 16px;
-  }
+}
 
-  .contatos {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
+.secao-conteudo {
+  background-color: #00002a;
+}
+
+.secao-calendario {
+  background-color: #00005f;
+}
+
+#rodape {
+  background-color: #00002a;
+}
+
+.texto-superior-principal {
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.titulo-principal {
+  font-size: 70px;
+  font-weight: 900;
+  padding: 32px 0;
+}
+
+.paragrafo-padrao {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 32px;
+}
+
+.texto-superior-secundario {
+  font-size: 15px;
+}
+
+.titulo-secundario {
+  font-size: 42px;
+  padding: 32px 0;
+}
+
+.titulo-terciario {
+  font-size: 31px;
+}
+
+.paragrafo-menor {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+svg {
+  fill: white;
+}
+
+.secao-destaque,
+.secao-conteudo,
+.secao-calendario {
+  padding: 80px;
+}
+
+#rodape {
+  padding: 32px 25px;
+  border-top: 1px solid gray;
+  display: flex;
+}
+
+.botao-chamada {
+  padding: 25px 50px;
+  background-color: #00ffa5;
+  font-weight: 700;
+  font-family: "JetBrains Mono", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.lista-cartoes {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 32px;
+}
+
+.cartoes {
+  border: 0.5px solid gray;
+  padding: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+
+.rodape-link {
+  color: white;
+  text-decoration: none;
+}
+
+.rodape-link:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+.redes-sociais {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.contatos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 /* Modal */
 
@@ -144,6 +154,8 @@ body, h1, h2, h3, p, button, ul, li {
   gap: 16px;
 
 }
+
+
 
 .modal::backdrop {
   background-color: rgba(0, 0, 0, 0.7);
@@ -164,13 +176,13 @@ body, h1, h2, h3, p, button, ul, li {
 }
 
 .botao-inscricao {
-    padding: 10px 30px;
-    background-color: #00ffa5;
-    font-weight: 700;
-    font-family: "JetBrains Mono", sans-serif;
-    font-size: 15px;
-    cursor: pointer; 
-    border-radius: 20px;
+  padding: 10px 30px;
+  background-color: #00ffa5;
+  font-weight: 700;
+  font-family: "JetBrains Mono", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 20px;
 }
 
 .input-modal {
@@ -184,23 +196,23 @@ body, h1, h2, h3, p, button, ul, li {
 
 /* Responsividade */
 
-  @media (max-width: 1068px) {
-    .lista-cartoes {
-      flex-direction: column;
-    }
+@media (max-width: 1068px) {
+  .lista-cartoes {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 580px) {
+  .titulo-principal {
+    font-size: 45px;
   }
 
-  @media (max-width: 580px) {
-    .titulo-principal {
-      font-size: 45px;
-    }
-
-    #rodape {
-      flex-direction: column;
-      gap: 16px;
-    }
-
-    .contatos {
-      gap: 16px;
-    }
+  #rodape {
+    flex-direction: column;
+    gap: 16px;
   }
+
+  .contatos {
+    gap: 16px;
+  }
+}
